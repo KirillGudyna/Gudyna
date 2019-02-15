@@ -1,0 +1,11 @@
+commit 67636f48f1e6999744b014da6cc69bf5abf788a3 (HEAD -> master)
+Author: Kirill <kirill.gud2000@mail.ru>
+Date:   Thu Feb 14 12:44:29 2019 +0300
+
+    add task1/status.txt
+
+commit b1717a4fc22447de3af82a1033e1277c6ed391ec
+Author: Kirill <kirill.gud2000@mail.ru>
+Date:   Thu Feb 14 12:42:19 2019 +0300
+
+    add .gitignore
