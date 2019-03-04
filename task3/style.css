@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    background-image: url(AssassinsCreed-.-Unity-1.jpg);
+}
+#header{
+    position: fixed;
+    z-index:1;
+    Top:0;
+    left:0;
+    display: block;
+    height: 100px;
+    width:100%;
+    background: #F5F5DC;
+    background-image: url(footer.png);
+    border-bottom: 3px solid #3771e2;
+}
+#header #header-content {
+    width:100%;
+    margin: 0 auto;
+}
+#header #header-content #logo{
+    line-height: 100px;
+}
+#header #header-content #logo h1{
+    font-family: Monotype Corsiva;
+    color: #0000FF;
+    font-size: 220%;
+}
+#header #header-content #auth-btn{
+    line-height: 50px;
+}
+#header #header-content #auth-btn h1{
+    font-family: Times New Roman;
+    color: #0000FF;
+    font-size: 180%;
+}
+#header #header-content #auth-btn a#btn{
+
+    padding: 5px 5px;
+    background: #dfd7e2;
+    border: 1px solid #454147;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #454147;
+}
+#page-body{
+    display: block;
+    width: 800px;
+    margin: 115px auto;
+    margin-left: 40px;
+    background: #fff;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    border: 1px solid #e2d5e8
+}
+
+#page-body #feed {
+}
+#rect{
+    width: 400px;
+    height:480px;
+    position: fixed;
+    Left: 850px;
+    Top: 115px;
+    background:whitesmoke;
+    margin-right:30px;
+}
+#page-body .add-btn{
+    height: 70px ;
+    width: 98%;
+    text-align: center;
+    background: #7a7a7a;
+    border: 1px solid #e2d5e8;
+    left: 48%;
+    margin: 10px;
+}
+#page-body .add-btn:hover{
+    cursor: pointer;
+}
+#rect p{
+    padding: 30px;
+}
+#rect b{
+    font-family: Times New Roman;
+    color: #0000FF;
+    font-size: 180%;
+}
+#rect .add-btn:hover{
+    cursor: pointer;
+}
+#page-body #feed .post-row{
+    padding: 10px;
+    margin: 10px;
+    border-bottom: 1px solid #e2d5e8;
+    position: relative;
+}
+#page-body #feed .post-row h1.post-title{
+    font-size: 18px;
+}
+
+#page-body #feed .post-row p.post-date{
+    color: #c3b7c9;
+    font-size: 14px;
+    margin-top: 5px;
+}
+#page-body #feed .post-row div.post-content{
+    padding: 10px 0;
+}
+#page-body #feed .post-row div.post-content img.post-img{
+    width: 200px;
+    margin-right: 10px;
+}
+#page-body #feed .post-row div.post-content p.post-text {}
+#page-body #feed .post-row div.hashtags{}
+#page-body #feed .post-row div.hashtags a.hashtag{
+    padding: 2px 5px;
+    text-decoration: none;
+    color: #fff;
+    background: #3c80ff;
+    border: 1px solid #3771e2;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+#page-body #feed .post-row .like-btn{
+    height: 40px;
+    width: 40px;
+    background: white;
+    background-image: url("like.png");
+    position: absolute;
+    bottom: 0;
+    left: -40px;
+    border: 1px solid #e2d5e8;
+    border-right: 0;
+}
+
+#page-body #feed .post-row .like-btn:hover{
+    cursor: pointer;
+}
+
+#footer {
+    padding: 40px;
+    text-align: center;
+    color: #6d696f;
+}
+.fl_l{
+    float: left;
+}
+.fl_r{
+    float: right;
+}
+.clr{
+    clear: both;
+}
