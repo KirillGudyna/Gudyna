@@ -6,14 +6,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div id="header">
-    <div id="header-content">
-        <div id="logo" class="fl_l">
-            <h1>ProGamers</h1>
+<div class="header">
+    <div class="header-content">
+        <div id="nick">
+            <div id="nickname"></div>
         </div>
-        <div id="auth-btn" class="fl_r">
-            <h1>Hi,User_Name!)</h1>
-            <a href="login.html" id="btn">
+        <div class="auth-btn">
+            <a href="login.html">
                 Log out
             </a>
         </div>
@@ -27,21 +26,29 @@
                 <p>What You Want To Be!
             </font>
         </div>
+        <div class="logo" class="fl_l">
+            <h1>ProGamers</h1>
+        </div>
     </div>
 </div>
 <div id="rect">
     <form action="index.html">
         <p>
             <b>Search by Name:</b>
-            <input type="text" name="Search by Name" placeholder="name">
+        <li><input type="search" name="Search by Name" list="Name" placeholder="name">
+            <datalist id="Name"></datalist>
+        </li>
         </p>
         <p>
             <b>Search by Date:</b>
-            <input type="text" name="Search by Date" placeholder="date">
+        <li><input type="text" name="Search by Date" placeholder="date"></li>
         </p>
         <p>
             <b>Search by Tag:</b>
-            <input type="text" name="Search by Tag" placeholder="tag">
+        <li><input type="text" name="Search by Tag" list="hashtags" placeholder="tag">
+            <datalist id="hashtags">
+            </datalist>
+        </li>
         </p>
     </form>
     <footer id="footer">
@@ -49,72 +56,13 @@
     </footer>
 </div>
 <div id="page-body">
-    <div id="feed">
-        <div class="post-row">
-            <h1 class="post-title">Title #1</h1>
-            <p class="post-date">02.03.2019 13:12</p>
-            <div class="post-content">
-                <img src="https://via.placeholder.com/200" class="post-img fl_l " alt="">
-                <p class="post-text">Lorem ipsum dolor sit amet, consectet</p>
-                <div class="clr"></div>
-            </div>
-            <div class="hashtags">
-                <a href="" class="hashtag">#tag</a>
-                <a href="" class="hashtag">#tag2</a>
-                <a href="" class="hashtag">#tag3</a>
-                <a href="" class="hashtag">#tag35</a>
-                <a href="" class="hashtag">#hu</a>
-            </div>
-            <div class="like-btn">
 
-            </div>
-        </div>
-        <div class="post-row">
-            <h1 class="post-title">Title #1</h1>
-            <p class="post-date">02.03.2019 13:12</p>
-            <div class="post-content">
-                <img src="https://via.placeholder.com/200" class="post-img fl_l " alt="">
-                <p class="post-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum debitis nulla
-                    quibusdam. Blanditiis deserunt, eius exercitationem fugit iusto laboriosam, natus neque quam
-                    quibusdam quis quo, reprehenderit vel voluptates? Labore, magnam!</p>
-                <div class="clr"></div>
-            </div>
-            <div class="hashtags">
-                <a href="" class="hashtag">#tag</a>
-                <a href="" class="hashtag">#tag2</a>
-                <a href="" class="hashtag">#tag3</a>
-                <a href="" class="hashtag">#tag35</a>
-                <a href="" class="hashtag">#hu</a>
-            </div>
-            <div class="like-btn">
-
-            </div>
-        </div>
-        <div class="post-row">
-            <h1 class="post-title">Title #1</h1>
-            <p class="post-date">02.03.2019 13:12</p>
-            <div class="post-content">
-                <img src="https://via.placeholder.com/200" class="post-img fl_l " alt="">
-                <p class="post-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum debitis nulla
-                    quibusdam. Blanditiis deserunt, eius exercitationem fugit iusto laboriosam, natus neque quam
-                    quibusdam quis quo, reprehenderit vel voluptates? Labore, magnam!</p>
-                <div class="clr"></div>
-            </div>
-            <div class="hashtags">
-                <a href="" class="hashtag">#tag</a>
-                <a href="" class="hashtag">#tag2</a>
-                <a href="" class="hashtag">#tag3</a>
-                <a href="" class="hashtag">#tag35</a>
-                <a href="" class="hashtag">#hu</a>
-            </div>
-            <div class="like-btn">
-
-            </div>
-        </div>
-    </div>
-    <div class="add-btn">
-        <h1>Download more</h1>
-    </div>
+</div>
+<div class="add-btn">
+    <h1>Download more</h1>
+</div>
 </div>
 </body>
+<script src="PostList.js"></script>
+<script src="DomFunction.js"></script>
 </html>

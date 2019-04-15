@@ -1,237 +1,112 @@
-photoPosts = [
-    {
-        id: '1',
-        description: 'Женская сборная Беларуси выиграла эстафету в рамках соревнований по биатлону на Олимпийских играх в Пхёнчхане!!!',
-        createdAt: new Date('2018-02-23'),
-        author: 'Иванов Иван',
-        photoLink: 'http://ont.by/webroot/delivery/files/news/2018/02/22/Dom.jpg',
-        hashtags: ['#god'],
-        likes: ['god', 'my']
-    },
-    {
-        id: '2',
-        description: 'Женская сборная Беларуси выиграла эстафету в рамках соревнований по биатлону на Олимпийских играх в Пхёнчхане!!!',
-        createdAt: new Date('2018-02-23'),
-        author: 'Иванов Иван',
-        photoLink: 'http://ont.by/webroot/delivery/files/news/2018/02/22/Dom.jpg',
-        hashtags: ['#god'],
-        likes: ['god', 'my']
-    },
-    {
-        id: '3',
-        description: 'Женская сборная Беларуси выиграла эстафету в рамках соревнований по биатлону на Олимпийских играх в Пхёнчхане!!!',
-        createdAt: new Date('2018-02-23'),
-        author: 'ivan',
-        photoLink: 'http://ont.by/webroot/delivery/files/news/2018/02/22/Dom.jpg',
-        hashtags: ['#god'],
-        likes: ['god', 'my']
-    },
-    {
-        id: '4',
-        description: 'Женская сборная Беларуси выиграла эстафету в рамках соревнований по биатлону на Олимпийских играх в Пхёнчхане!!!',
-        createdAt: new Date('2018-03-23'),
-        author: 'ivan',
-        photoLink: 'http://ont.by/webroot/delivery/files/news/2018/02/22/Dom.jpg',
-        hashtags: ['#god'],
-        likes: ['god', 'my']
-    },
-    {
-        id: '5',
-        description: 'Женская сборная Беларуси выиграла эстафету в рамках соревнований по биатлону на Олимпийских играх в Пхёнчхане!!!',
-        createdAt: new Date('2017-02-20'),
-        author: 'ivan',
-        photoLink: 'http://ont.by/webroot/delivery/files/news/2018/02/22/Dom.jpg',
-        hashtags: ['#god'],
-        likes: ['god', 'my']
-    },
-    {
-        id: '6',
-        description: 'Женская сборная Беларуси выиграла эстафету в рамках соревнований по биатлону на Олимпийских играх в Пхёнчхане!!!',
-        createdAt: new Date('2017-02-20'),
-        author: 'ivan',
-        photoLink: 'http://ont.by/webroot/delivery/files/news/2018/02/22/Dom.jpg',
-        hashtags: ['#god', '#my'],
-        likes: ['god', 'my']
-    },
-    {
-        id: '7',
-        description: 'Женская сборная Беларуси выиграла эстафету в рамках соревнований по биатлону на Олимпийских играх в Пхёнчхане!!!',
-        createdAt: new Date('2017-02-20'),
-        author: 'ivan',
-        photoLink: 'http://ont.by/webroot/delivery/files/news/2018/02/22/Dom.jpg',
-        hashtags: ['#god', '#my'],
-        likes: ['god', 'my']
-    },
-    {
-        id: '8',
-        description: 'Женская сборная Беларуси выиграла эстафету в рамках соревнований по биатлону на Олимпийских играх в Пхёнчхане!!!',
-        createdAt: new Date('2017-02-20'),
-        author: 'ivan',
-        photoLink: 'http://ont.by/webroot/delivery/files/news/2018/02/22/Dom.jpg',
-        hashtags: ['#god', '#my'],
-        likes: ['god', 'my']
-    },
-    {
-        id: '9',
-        description: 'Женская сборная Беларуси выиграла эстафету в рамках соревнований по биатлону на Олимпийских играх в Пхёнчхане!!!',
-        createdAt: new Date('2017-02-20'),
-        author: 'Vanya',
-        photoLink: 'http://ont.by/webroot/delivery/files/news/2018/02/22/Dom.jpg',
-        hashtags: ['#god', '#my'],
-        likes: ['god', 'my']
-    },
-    {
-        id: '10',
-        description: 'Женская сборная Беларуси выиграла эстафету в рамках соревнований по биатлону на Олимпийских играх в Пхёнчхане!!!',
-        createdAt: new Date('2017-02-20'),
-        author: 'Vanya',
-        photoLink: 'http://ont.by/webroot/delivery/files/news/2018/02/22/Dom.jpg',
-        hashtags: ['#god', '#my'],
-        likes: ['god', 'my']
-    },
-    {
-        id: '11',
-        description: 'Женская сборная Беларуси выиграла эстафету в рамках соревнований по биатлону на Олимпийских играх в Пхёнчхане!!!',
-        createdAt: new Date('2017-02-20'),
-        author: 'Vanya',
-        photoLink: 'http://ont.by/webroot/delivery/files/news/2018/02/22/Dom.jpg',
-        hashtags: ['#god', '#my'],
-        likes: ['god', 'my']
-    },
-    {
-        id: '12',
-        description: 'Женская сборная Беларуси выиграла эстафету в рамках соревнований по биатлону на Олимпийских играх в Пхёнчхане!!!',
-        createdAt: new Date('2017-02-20'),
-        author: 'Vanya',
-        photoLink: 'http://ont.by/webroot/delivery/files/news/2018/02/22/Dom.jpg',
-        hashtags: ['#god', '#my'],
-        likes: ['god', 'my']
-    },
-    {
-        id: '13',
-        description: 'Женская сборная Беларуси выиграла эстафету в рамках соревнований по биатлону на Олимпийских играх в Пхёнчхане!!!',
-    createdAt: new Date('2017-02-20'),
-    author: 'Vanya',
-    photoLink: 'http://ont.by/webroot/delivery/files/news/2018/02/22/Dom.jpg',
-    hashtags: ['#god', '#my'],
-    likes: ['god', 'my']
-},
-{
-    id: '14',
-        description: 'Женская сборная Беларуси выиграла эстафету в рамках соревнований по биатлону на Олимпийских играх в Пхёнчхане!!!',
-    createdAt: new Date('2017-02-20'),
-    author: 'Vanya',
-    photoLink: 'http://ont.by/webroot/delivery/files/news/2018/02/22/Dom.jpg',
-    hashtags: ['#god', '#my'],
-    likes: ['god', 'my']
-},
-{
-    id: '15',
-        description: 'Женская сборная Беларуси выиграла эстафету в рамках соревнований по биатлону на Олимпийских играх в Пхёнчхане!!!',
-    createdAt: new Date('2017-02-20'),
-    author: 'Vanya',
-    photoLink: 'http://ont.by/webroot/delivery/files/news/2018/02/22/Dom.jpg',
-    hashtags: ['#god', '#my'],
-    likes: ['god', 'my']
-},
-{
-    id: '16',
-        description: 'Женская сборная Беларуси выиграла эстафету в рамках соревнований по биатлону на Олимпийских играх в Пхёнчхане!!!',
-    createdAt: new Date('2017-02-20'),
-    author: 'Vanya',
-    photoLink: 'http://ont.by/webroot/delivery/files/news/2018/02/22/Dom.jpg',
-    hashtags: ['#god', '#my'],
-    likes: ['god', 'my']
-},
-{
-    id: '17',
-        description: 'Женская сборная Беларуси выиграла эстафету в рамках соревнований по биатлону на Олимпийских играх в Пхёнчхане!!!',
-    createdAt: new Date('2017-02-20'),
-    author: 'Vanya',
-    photoLink: 'http://ont.by/webroot/delivery/files/news/2018/02/22/Dom.jpg',
-    hashtags: ['#god', '#my'],
-    likes: ['god', 'my']
-},
-{
-    id: '18',
-        description: 'Женская сборная Беларуси выиграла эстафету в рамках соревнований по биатлону на Олимпийских играх в Пхёнчхане!!!',
-    createdAt: new Date('2017-02-20'),
-    author: 'Vanya',
-    photoLink: 'http://ont.by/webroot/delivery/files/news/2018/02/22/Dom.jpg',
-    hashtags: ['#god', '#my'],
-    likes: ['god', 'my']
-},
-{
-    id: '19',
-        description: 'Женская сборная Беларуси выиграла эстафету в рамках соревнований по биатлону на Олимпийских играх в Пхёнчхане!!!',
-    createdAt: new Date('2017-02-20'),
-    author: 'Vanya',
-    photoLink: 'http://ont.by/webroot/delivery/files/news/2018/02/22/Dom.jpg',
-    hashtags: ['#god', '#my'],
-    likes: ['god', 'my']
-},
-{
-    id: '20',
-        description: 'Женская сборная Беларуси выиграла эстафету в рамках соревнований по биатлону на Олимпийских играх в Пхёнчхане!!!',
-    createdAt: new Date('2017-02-20'),
-    author: 'Vanya',
-    photoLink: 'http://ont.by/webroot/delivery/files/news/2018/02/22/Dom.jpg',
-    hashtags: ['#god', '#my'],
-    likes: ['god', 'my']
-}
-
-];
-
 let postModule = (function () {
-    let filter = undefined;
+    let photoPosts = [
+        {
+            id: '1',
+            description: 'Женская сборная Беларуси выиграла эстафету в рамках соревнований по биатлону на Олимпийских играх в Пхёнчхане!!!',
+            createdAt: new Date('2018-02-23'),
+            author: 'Иванов Иван',
+            photoLink: 'https://via.placeholder.com/200',
+            hashTag: ['#god'],
+            likes: ['god', 'my']
+        },
+        {
+            id: '2',
+            description: 'Женская сборная Беларуси выиграла эстафету в рамках соревнований по биатлону на Олимпийских играх в Пхёнчхане!!!',
+            createdAt: new Date('2018-02-23'),
+            author: 'Иванов Иван',
+            photoLink: 'https://via.placeholder.com/200',
+            hashTag: ['#god', 'lol'],
+            likes: ['god', 'my']
+        },
+        {
+            id: '3',
+            description: 'Женская сборная Беларуси выиграла эстафету в рамках соревнований по биатлону на Олимпийских играх в Пхёнчхане!!!',
+            createdAt: new Date('2018-02-23'),
+            author: 'ivan',
+            photoLink: 'https://via.placeholder.com/200',
+            hashTag: ['#god'],
+            likes: ['god', 'my']
+        }
+    ];
     let array = photoPosts;
     let sortByDate = (o1, o2) => {
         return Date.parse(o1.createdAt) - Date.parse(o2.createdAt);
     };
-    let getPhotoPosts = (skip = 0, top = 10, filter) => {
-        let tmp = array.slice();
-        if (typeof skip !== "number" || typeof top !== "number") {
-            return [];
+
+    function getAuthors() {
+        let name = [];
+        photoPosts.forEach(function (item) {
+            if (!item.isDelete) {
+                name.push(item.author);
+            }
+        });
+        return unique(name);
+    }
+
+    function unique(arr) {
+        const uniqeMarker = {};
+        return arr.filter((item) => {
+            if (!uniqeMarker[item]) {
+                uniqeMarker[item] = true;
+                return true;
+            }
+        });
+    }
+
+    function getHashtags() {
+        let hashtags = [];
+        photoPosts.forEach(function (itemPost) {
+            if (!itemPost.isDelete) {
+                itemPost.hashTag.forEach(function (itemHashtag) {
+                        hashtags.push(itemHashtag)
+                    }
+                )
+            }
+        });
+        return unique(hashtags);
+    }
+
+    function getPhotoPosts(skip, top, filter) {
+        skip = skip || 0;
+        top = top || 0;
+        let min = top;
+        if (min > photoPosts.length) {
+            min = photoPosts.length;
         }
         if (!filter) {
-            tmp.sort(sortByDate);
+            return photoPosts.sort(sortByDate).slice(skip, min);
         }
         if (filter) {
-            if (filter.author && (typeof filter.author !== "string" || filter.author.length === 0) ||
-                filter.createdAt && !filter.createdAt instanceof Date) {
-                return [];
-            }
+            let result = photoPosts;
             if (filter.author) {
-                tmp = tmp.filter((item) => {
-                    return item.author === filter.author;
-                });
+                result = result.filter(function (post) {
+                    return post.author === filter.author;
+                })
             }
             if (filter.createdAt) {
-                tmp = tmp.filter((item) => {
-                    return Date.parse(item.createdAt) === Date.parse(filter.createdAt);
+                result = result.filter(function (post) {
+                    return post.createdAt === filter.createdAt;
                 })
             }
-            if (filter.hashtags) {
-                tmp = tmp.filter((item) => {
-                    if(typeof item.hashtags === "undefined"
-                    )
-                    {
-                        return false;
+            if (filter.hashTag) {
+                result = result.filter(function (post) {
+                    for (let hashTag of post.hashTag) {
+                        for (let hashTagSearch of [].concat(filter.hashTag)) {
+                            if (hashTag === hashTagSearch) {
+                                return true;
+                            }
+                        }
                     }
-                    return filter.hashtags.every((tag) => {
-                        return item.hashtags.includes(tag);
-                    })
-                })
+                });
             }
+            return result.sort(sortByDate).slice(skip, min);
 
 
         }
 
-
-        return tmp.slice(skip, skip + top);
     }
-    let getPhotoPost = (id) =>
-    {
+
+    function getPhotoPost(id) {
         if (typeof id == "string" && id.valueOf() >= 0) {
             return array.find((item) => item.id == id
             )
@@ -239,8 +114,8 @@ let postModule = (function () {
         }
         return -1;
     }
-    let validatePost = (post) =>
-    {
+
+    function validatePost(post) {
         if (!post) {
             return false;
         }
@@ -248,22 +123,19 @@ let postModule = (function () {
             return false;
         }
         if (post.description === "" || typeof post.description !== "string")
-            Under Construction
-        post.id
-
-        return false;
+            return false;
         if (!(post.createdAt instanceof Date))
             return false;
         if (post.author === "" || typeof post.author !== "string")
             return false;
         if (post.photoLink === "" || typeof post.photoLink !== "string")
             return false;
-        if (post.rating === null || typeof post.rating !== "number")
-            return false;
+        /*if (post.rating === null || typeof post.rating !== "number")
+            return false;*/
         return true;
     }
-    let addPhotoPost = (post) =>
-    {
+
+    function addPhotoPost(post) {
         if (validatePost(post)) {
             array.push(post);
             array.sort(sortByDate);
@@ -272,8 +144,8 @@ let postModule = (function () {
             return false;
         }
     }
-    let editPhotoPost = (id, post) =>
-    {
+
+    function editPhotoPost(id, post) {
         let index = array.findIndex(item => item.id === id
             )
         ;
@@ -292,8 +164,8 @@ let postModule = (function () {
         }
         return true;
     }
-    let removePhotoPost = (id) =>
-    {
+
+    function removePhotoPost(id) {
         if (typeof id == "string" && id.valueOf() >= 0) {
             array.splice(array.findIndex(item => item.id === id), 1
             )
@@ -303,6 +175,15 @@ let postModule = (function () {
         return false;
     }
 
-// console.log(getPhotoPosts());
-// console.log(getPhotoPost('5'));
+    return {
+        getAuthors,
+        getHashtags,
+        getPhotoPost,
+        getPhotoPosts,
+        validatePost,
+        addPhotoPost,
+        editPhotoPost,
+        removePhotoPost
+    }
+
 }());
