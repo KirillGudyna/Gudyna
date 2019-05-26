@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>UploadTest</title>
+</head>
+<body>
+<form action="/upload" method="post" enctype="multipart/form-data">
+    Select File to Upload:<input type="file" name="fileName" accept="image/*">
+    <input type="submit" value="Upload">
+</form>
+<br>
+<br>
+<br>
+<form action="/upload" method="get">
+    Type name to Get:<input type="text" name="photoLink">
+    <input type="submit" value="Get photo">
+</form>
+</body>
+</html>

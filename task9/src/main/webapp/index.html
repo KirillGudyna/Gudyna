@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ProGamers</title>
+    <link rel="stylesheet" href="../resources/css/style.css">
+</head>
+<body>
+<div class="header">
+    <div class="header-content">
+        <div id="nick">
+            <div id="nickname"></div>
+        </div>
+        <div class="auth-btn">
+            Log in
+        </div>
+        <div class="out-btn">
+            Log out
+        </div>
+        <div class="fl_r">
+            <img src="resources/images/pop.png" width="70" height="100">
+        </div>
+        <div class="fl_r">
+            <font color="darkblue" size="5" face="Monotype Corsiva">
+                <p>Be Stronger Then You Are And
+                <p>Tomorrow You Can Become
+                <p>What You Want To Be!
+            </font>
+        </div>
+        <div class="logo" class="fl_l">
+            <h1>ProGamers</h1>
+        </div>
+    </div>
+</div>
+<div id="rect">
+    <div class="add-post">
+        Add PhotoPost
+    </div>
+    <form action="index.html" class="search-line">
+        <p>
+            <b>Search by Name:</b>
+        <li><input type="search" name="SearchbyName" list="Name" placeholder="name">
+            <datalist id="Name"></datalist>
+        </li>
+        </p>
+        <p>
+            <b>Search by Date:</b>
+        <li><input type="text" name="from" placeholder="YYYY-MM-DD"></li>
+        <li><input type="text" name="to" placeholder="YYYY-MM-DD"></li>
+        </p>
+        <p>
+            <b>Search by Tag:</b>
+        <li><input type="text" name="SearchbyTag" list="hashtags" placeholder="tag">
+            <datalist id="hashtags">
+            </datalist>
+        </li>
+        </p>
+    </form>
+    <div class="search">
+        Search
+    </div>
+    <footer id="footer">
+        &copy; This site make by Kirill Gudyna
+    </footer>
+</div>
+<div class="page-body">
+
+</div>
+<div class="add-btn">
+    <h1>Download more</h1>
+</div>
+<div class="login-window">
+    <div class="login-window-content">
+        <form class="login-window-form">
+            <button type="button" class="close-login-window-button"><img src="resources/images/close.png"></button>
+
+            <p><input type="text" name="login" maxlength="30" list="author" placeholder="Login">
+                <datalist id="author"></datalist>
+            </p>
+            <p><input type="password" name="password" maxlength="30" placeholder="Password"></p>
+            <button type="button" class="login-button">Log in</button>
+        </form>
+    </div>
+</div>
+<div class="edit-window">
+    <div class="edit-window-content">
+        <form class="edit-window-form">
+            <button type="button" class="close-edit-window-button"><img src="resources/images/close.png"></button>
+            <p class="post-author-image"><img src="resources/images/user%20.png"><span class="post-author">Author</span></p>
+            <input name="photoLink" class="add-window-line" placeholder="photo link" type="text">
+            <label>
+                <p><textarea name="description" class="add-window-line" placeholder="description" maxlength="200"
+                             rows="4"></textarea></p>
+                <p><textarea name="tags" class="add-window-line" placeholder="#tag1#tag2" maxlength="200"
+                             rows="4"></textarea></p>
+            </label>
+            <button type="button" class="apply-edit-window-button"><img src="resources/images/apply.png"></button>
+        </form>
+    </div>
+</div>
+<div class="add-window">
+    <div class="add-window-content">
+        <form class="add-window-form">
+            <button type="button" class="close-add-window-button"><img src="resources/images/close.png"></button>
+            <p class="post-author-image"><img src="resources/images/user%20.png"><span class="postAdd-author">Author</span></p>
+            <input name="photoLink" class="add-window-line" placeholder="photo link" type="text">
+            <label>
+                <p><textarea name="description" class="add-window-line" placeholder="description" maxlength="200"
+                             rows="4"></textarea></p>
+                <p><textarea name="tags" class="add-window-line" placeholder="#tag1#tag2" maxlength="200"
+                             rows="4"></textarea></p>
+            </label>
+            <button type="button" class="apply-add-window-button"><img src="resources/images/apply.png"></button>
+        </form>
+    </div>
+</div>
+<div class="delete-window">
+    <div class="delete-window-content">
+        <form class="delete-window-form">
+            <p>Are you sure?</p>
+            <button type="button" class="yes-delete-button">Yes</button>
+            <button type="button" class="no-delete-button">No</button>
+        </form>
+    </div>
+</div>
+</body>
+<script src="../resources/js/PostList.js"></script>
+<script src="../resources/js/DomFunction.js"></script>
+<script src="../resources/js/script.js"></script>
+</html>
