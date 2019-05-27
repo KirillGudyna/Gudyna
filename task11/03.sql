@@ -1,0 +1,1 @@
+select * from mydb.photo_post where user_iduser = 1 and createdAt = '2019-05-1';

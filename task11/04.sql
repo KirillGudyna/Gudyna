@@ -1,0 +1,1 @@
+select * from mydb.photo_post where description like '%hello%';

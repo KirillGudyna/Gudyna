@@ -1,0 +1,1 @@
+select * from mydb.photo_post order by createdAt desc limit 5;
